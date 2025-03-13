@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden; /* Impede que as imagens ultrapassem os limites das cartas */
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+
+.card.flipped {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.card.matched {
+    background-color: #8BC34A;
+    pointer-events: none;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho da carta */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
