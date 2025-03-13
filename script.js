@@ -1,16 +1,16 @@
 const cards = [
-    { id: 1, image: 'imagens/imagem1.png' },
-    { id: 2, image: 'imagens/imagem1.png' },
-    { id: 3, image: 'imagens/imagem2.png' },
-    { id: 4, image: 'imagens/imagem2.png' },
-    { id: 5, image: 'imagens/imagem3.png' },
-    { id: 6, image: 'imagens/imagem3.png' },
-    { id: 7, image: 'imagens/imagem4.png' },
-    { id: 8, image: 'imagens/imagem4.png' },
-    { id: 9, image: 'imagens/imagem5.png' },
-    { id: 10, image: 'imagens/imagem5.png' },
-    { id: 11, image: 'imagens/imagem6.png' },
-    { id: 12, image: 'imagens/imagem6.png' }
+    { id: 1, image: 'imagem1.png' },
+    { id: 2, image: 'imagem1.png' },
+    { id: 3, image: 'imagem2.png' },
+    { id: 4, image: 'imagem2.png' },
+    { id: 5, image: 'imagem3.png' },
+    { id: 6, image: 'imagem3.png' },
+    { id: 7, image: 'imagem4.png' },
+    { id: 8, image: 'imagem4.png' },
+    { id: 9, image: 'imagem5.png' },
+    { id: 10, image: 'imagem5.png' },
+    { id: 11, image: 'imagem6.png' },
+    { id: 12, image: 'imagem6.png' }
 ];
 
 let flippedCards = [];
